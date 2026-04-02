@@ -2,13 +2,26 @@
 
 MCP server that makes [DeepLearning.AI](https://www.deeplearning.ai)'s 121-course catalog discoverable from AI coding tools like Claude Code, Codex, and others.
 
-Search courses, explore lesson details, and browse topics — all from your IDE.
+Ask questions about courses in natural language — right from your IDE.
 
-## Install
+## Quick Start (30 seconds)
 
-### Claude Code
+### Option A: Remote (no install needed)
 
-Add to your MCP config (`~/.claude.json` or project `.mcp.json`):
+Add to your Claude Code MCP config (`~/.claude.json` or project `.mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "dlai": {
+      "type": "url",
+      "url": "https://just-freedom-production-4b8c.up.railway.app/mcp"
+    }
+  }
+}
+```
+
+### Option B: Local (runs on your machine)
 
 ```json
 {
@@ -21,26 +34,72 @@ Add to your MCP config (`~/.claude.json` or project `.mcp.json`):
 }
 ```
 
-### Global install
+Restart Claude Code. That's it — start asking questions.
 
-```bash
-npm install -g dlai-mcp-server
+## What Can I Ask?
+
+Once installed, just talk to Claude naturally. Here are real examples:
+
+### "What should I learn?"
+
+```
+> "I want to learn how to build AI agents from scratch. What courses should I take?"
+
+Claude will search the catalog, find agent-related courses, and recommend a learning path
+based on difficulty level and prerequisites.
 ```
 
-## Tools
+### "Find me something specific"
+
+```
+> "Find beginner courses about RAG by LlamaIndex"
+> "What courses does Andrew Ng teach?"
+> "Show me all courses about prompt engineering"
+> "Are there any courses on computer vision?"
+```
+
+### "Tell me what's in a course"
+
+```
+> "What does the ChatGPT Prompt Engineering course cover?"
+> "How many lessons are in the crewAI multi-agent course?"
+> "Show me the full lesson breakdown for Building Agentic RAG"
+```
+
+### "Help me compare"
+
+```
+> "Compare the RAG courses — which ones are for beginners vs advanced?"
+> "What's the difference between the LangChain and LlamaIndex agent courses?"
+```
+
+### "What topics exist?"
+
+```
+> "What topics are available on DeepLearning.AI?"
+> "How many courses are there about Agents?"
+> "What are the most popular topics?"
+```
+
+## Use Cases
+
+| Who | How They Use It |
+|-----|----------------|
+| **Developer learning AI** | "I know Python but nothing about LLMs. Where do I start?" |
+| **Team lead** | "Find courses to upskill my team on RAG and agents" |
+| **Student** | "What's the shortest course that covers prompt engineering?" |
+| **Career switcher** | "I'm a backend dev. What's the path to AI engineering?" |
+| **AI practitioner** | "Are there any advanced courses on fine-tuning?" |
+| **Hiring manager** | "What skills does the DLAI curriculum cover? Map it to my job reqs" |
+
+## Tools Reference
 
 ### `search_courses`
 
-Search the DLAI catalog by keyword with optional filters.
-
-```
-"Find me courses about RAG"
-"Search for beginner agent courses by LangChain"
-"What courses does OpenAI partner on?"
-```
+Search the catalog by keyword with optional filters.
 
 **Parameters:**
-- `query` (required) — search term
+- `query` (required) — search term (e.g., "RAG", "agents", "prompt engineering")
 - `topic` — filter by topic (e.g., "Agents", "RAG", "Computer Vision")
 - `level` — "Beginner", "Intermediate", or "Advanced"
 - `partner` — filter by partner (e.g., "OpenAI", "LangChain", "AWS")
@@ -48,42 +107,70 @@ Search the DLAI catalog by keyword with optional filters.
 
 ### `get_course_details`
 
-Get full details for a specific course including lesson-by-lesson breakdown.
-
-```
-"Show me the lessons in the ChatGPT Prompt Engineering course"
-"What does the LangChain course cover?"
-```
+Get full details including lesson-by-lesson breakdown.
 
 **Parameters:**
 - `slug` (required) — course slug from search results
 
-**Returns:** Full metadata + lesson list with titles, durations, and content types (video/code/reading).
+**Returns:** title, description, instructors, level, partner, prerequisites, learning outcomes, lesson list (with titles, durations, types), code example count.
 
 ### `list_topics`
 
-Browse all 38 DLAI topics with course counts.
+Browse all 38 topics with course counts and example courses.
+
+**No parameters.** Returns every topic with how many courses cover it.
+
+## How It Works
 
 ```
-"What topics are available on DeepLearning.AI?"
-"How many agent courses are there?"
+User asks a question in Claude Code
+       |
+       v
+Claude invokes the appropriate MCP tool
+       |
+       v
+dlai-mcp-server queries DeepLearning.AI's Algolia search index
+       |
+       v
+Results cached locally (24h TTL) or served from Railway
+       |
+       v
+Claude formats the answer naturally
 ```
 
-## How it works
+- **121 courses** across 38 topics from 70+ partners
+- **Lesson-level data** fetched on-demand for individual courses
+- **Bundled fallback** ensures it works even if the network is unavailable
+- **robots.txt** permits access (`Allow: /`, no crawl-delay)
 
-The server queries DeepLearning.AI's public course catalog via their Algolia search index. Course data is cached locally at `~/.dlai-mcp/cache/courses.json` (refreshes every 24 hours). Lesson details are fetched on-demand when you request a specific course.
+## Roadmap
 
-A bundled fallback dataset ensures the server works even if the network is unavailable.
+### Phase 1 (shipped)
+- Course search with filters (topic, level, partner, type)
+- Lesson-level details with durations and content types
+- Topic browsing with course counts
+- Hosted on Railway + local via npx
 
-### Cache management
+### Phase 2 (next)
+- Semantic search ("courses about building things that remember context")
+- Learning path generation ("I want to go from zero to agent builder")
+- Course comparison tool
+- Instructor profiles
 
-```bash
-# Force refresh
-dlai-mcp-server --refresh-cache
+### Phase 3 (with DLAI eng team)
+- Code example extraction from course notebooks
+- Transcript search ("which lesson explains attention mechanisms?")
+- Enrollment + progress tracking (authenticated)
+- Push to DLAI's official MCP registry
 
-# Cache location
-~/.dlai-mcp/cache/courses.json
-```
+## Hosting
+
+| Mode | URL / Command | For |
+|------|--------------|-----|
+| **Remote** | `https://just-freedom-production-4b8c.up.railway.app/mcp` | Zero-install, hosted on Railway |
+| **Local** | `npx dlai-mcp-server` | Offline-capable, runs on your machine |
+| **Health** | `GET /health` | Monitoring |
+| **Info** | `GET /` | Server metadata |
 
 ## Development
 
@@ -99,6 +186,26 @@ npm test
 
 ```bash
 npx @modelcontextprotocol/inspector node dist/index.js
+```
+
+### CLI test
+
+```bash
+bash tests/mcp-test.sh search_courses '{"query":"RAG"}'
+bash tests/mcp-test.sh list_topics '{}'
+bash tests/mcp-test.sh get_course_details '{"slug":"chatgpt-prompt-engineering-for-developers"}'
+```
+
+## Cache Management
+
+```bash
+# Force refresh (local mode)
+dlai-mcp-server --refresh-cache
+
+# Cache location
+~/.dlai-mcp/cache/courses.json
+
+# Cache auto-refreshes every 24 hours
 ```
 
 ## License
