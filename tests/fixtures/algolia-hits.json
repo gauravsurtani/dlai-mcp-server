@@ -1,0 +1,345 @@
+[
+  {
+    "title": "Agent Memory: Building Memory-Aware Agents",
+    "slug": "agent-memory-building-memory-aware-agents",
+    "date": "2026-03-13T09:52:37",
+    "date_timestamp": 1773395557000,
+    "landing_page": "/short-courses/agent-memory-building-memory-aware-agents",
+    "course_type": "Short Courses",
+    "skill_level": [
+      "Intermediate"
+    ],
+    "partnership": [
+      "Oracle"
+    ],
+    "topic": [
+      "Agents"
+    ],
+    "description": "Build a complete agent memory system that lets an LLM store, retrieve, and refine knowledge across sessions\u2014turning a stateless agent into one that learns and improves over time.",
+    "partnershipInfos": [
+      {
+        "title": "Oracle",
+        "logo": {
+          "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/03/Oracle-Square-Logo.jpg"
+        }
+      }
+    ],
+    "instructors": "Richmond Alake and Nacho Mart\u00ednez",
+    "isPrivate": null,
+    "objectID": "cG9zdDozNzY5NA==",
+    "_highlightResult": {
+      "title": {
+        "value": "Agent Memory: Building Memory-Aware Agents",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "slug": {
+        "value": "agent-memory-building-memory-aware-agents",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "partnership": [
+        {
+          "value": "Oracle",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "topic": [
+        {
+          "value": "Agents",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "description": {
+        "value": "Build a complete agent memory system that lets an LLM store, retrieve, and refine knowledge across sessions\u2014turning a stateless agent into one that learns and improves over time.",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "instructors": {
+        "value": "Richmond Alake and Nacho Mart\u00ednez",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "title": "Build and Train an LLM with JAX",
+    "slug": "build-and-train-an-llm-with-jax",
+    "date": "2026-02-25T08:55:58",
+    "date_timestamp": 1772009758000,
+    "landing_page": "/short-courses/build-and-train-an-llm-with-jax",
+    "course_type": "Short Courses",
+    "skill_level": [
+      "Intermediate"
+    ],
+    "partnership": [
+      "Google"
+    ],
+    "topic": [
+      "GenAI Applications"
+    ],
+    "description": "Build and train a 20M-parameter LLM from scratch using JAX, the open-source library behind Google's Gemini, and learn the core techniques powering modern AI development.",
+    "partnershipInfos": [
+      {
+        "title": "Google",
+        "logo": {
+          "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Google-Square-Icon.jpg"
+        }
+      }
+    ],
+    "instructors": "Chris Achard",
+    "isPrivate": null,
+    "objectID": "cG9zdDozNzY2OQ==",
+    "_highlightResult": {
+      "title": {
+        "value": "Build and Train an LLM with JAX",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "slug": {
+        "value": "build-and-train-an-llm-with-jax",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "partnership": [
+        {
+          "value": "Google",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "topic": [
+        {
+          "value": "GenAI Applications",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "description": {
+        "value": "Build and train a 20M-parameter LLM from scratch using JAX, the open-source library behind Google's Gemini, and learn the core techniques powering modern AI development.",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "instructors": {
+        "value": "Chris Achard",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "title": "A2A: The Agent2Agent Protocol",
+    "slug": "a2a-the-agent2agent-protocol",
+    "date": "2026-01-29T14:08:30",
+    "date_timestamp": 1769695710000,
+    "landing_page": "/short-courses/a2a-the-agent2agent-protocol",
+    "course_type": "Short Courses",
+    "skill_level": [
+      "Intermediate"
+    ],
+    "partnership": [
+      "Google Cloud",
+      "IBM Research"
+    ],
+    "topic": [
+      "Agents"
+    ],
+    "description": "Connect agents across different frameworks and teams using A2A, the open protocol standardizing agent-to-agent communication.",
+    "partnershipInfos": [
+      {
+        "title": "Google Cloud",
+        "logo": {
+          "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png"
+        }
+      },
+      {
+        "title": "IBM Research",
+        "logo": {
+          "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/01/Xy93qVY4_400x400.jpg"
+        }
+      }
+    ],
+    "instructors": "Holt Skinner, Ivan Nardini, Sandi Besen",
+    "isPrivate": null,
+    "objectID": "cG9zdDozNzYyNw==",
+    "_highlightResult": {
+      "title": {
+        "value": "A2A: The Agent2Agent Protocol",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "slug": {
+        "value": "a2a-the-agent2agent-protocol",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "partnership": [
+        {
+          "value": "Google Cloud",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "IBM Research",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "topic": [
+        {
+          "value": "Agents",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "description": {
+        "value": "Connect agents across different frameworks and teams using A2A, the open protocol standardizing agent-to-agent communication.",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "instructors": {
+        "value": "Holt Skinner, Ivan Nardini, Sandi Besen",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "title": "Agent Skills with Anthropic",
+    "slug": "agent-skills-with-anthropic",
+    "date": "2026-01-26T09:01:24",
+    "date_timestamp": 1769418084000,
+    "landing_page": "/short-courses/agent-skills-with-anthropic",
+    "course_type": "Short Courses",
+    "skill_level": [
+      "Beginner"
+    ],
+    "partnership": [
+      "Anthropic"
+    ],
+    "topic": [
+      "Agents"
+    ],
+    "description": "Equip agents with expert on-demand knowledge to enable reliable coding, research, and data analysis workflows",
+    "partnershipInfos": [
+      {
+        "title": "Anthropic",
+        "logo": {
+          "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/08/Anthropic-Square-Logo.jpg"
+        }
+      }
+    ],
+    "instructors": "Elie Schoppik",
+    "isPrivate": null,
+    "objectID": "cG9zdDozNzYxMQ==",
+    "_highlightResult": {
+      "title": {
+        "value": "Agent Skills with Anthropic",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "slug": {
+        "value": "agent-skills-with-anthropic",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "partnership": [
+        {
+          "value": "Anthropic",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "topic": [
+        {
+          "value": "Agents",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "description": {
+        "value": "Equip agents with expert on-demand knowledge to enable reliable coding, research, and data analysis workflows",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "instructors": {
+        "value": "Elie Schoppik",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "title": "Gemini CLI: Code & Create with an Open-Source Agent",
+    "slug": "gemini-cli-code-and-create-with-an-open-source-agent",
+    "date": "2026-01-15T12:11:37",
+    "date_timestamp": 1768479097000,
+    "landing_page": "/short-courses/gemini-cli-code-and-create-with-an-open-source-agent",
+    "course_type": "Short Courses",
+    "skill_level": [
+      "Beginner"
+    ],
+    "partnership": [
+      "Gemini CLI"
+    ],
+    "topic": [
+      "AI Coding",
+      "Task Automation"
+    ],
+    "description": "Build real-world applications from the command line using Gemini CLI, Google's open-source agentic coding assistant that coordinates local tools and cloud services to automate coding and creative workflows.",
+    "partnershipInfos": [
+      {
+        "title": "Gemini CLI",
+        "logo": {
+          "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/01/Gemini-CLI-logo-2.png"
+        }
+      }
+    ],
+    "instructors": "Jack Wotherspoon",
+    "isPrivate": null,
+    "objectID": "cG9zdDozNzU4OA==",
+    "_highlightResult": {
+      "title": {
+        "value": "Gemini CLI: Code & Create with an Open-Source Agent",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "slug": {
+        "value": "gemini-cli-code-and-create-with-an-open-source-agent",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "partnership": [
+        {
+          "value": "Gemini CLI",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "topic": [
+        {
+          "value": "AI Coding",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "Task Automation",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "description": {
+        "value": "Build real-world applications from the command line using Gemini CLI, Google's open-source agentic coding assistant that coordinates local tools and cloud services to automate coding and creative workflows.",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "instructors": {
+        "value": "Jack Wotherspoon",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]

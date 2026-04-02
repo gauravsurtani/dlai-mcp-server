@@ -172,6 +172,76 @@ Claude formats the answer naturally
 | **Health** | `GET /health` | Monitoring |
 | **Info** | `GET /` | Server metadata |
 
+## Testing
+
+### 1. Verify the remote server is running
+
+```bash
+curl https://just-freedom-production-4b8c.up.railway.app/health
+# Expected: {"status":"ok","courses":121}
+```
+
+### 2. Test in Claude Code (recommended)
+
+After adding the MCP config and restarting Claude Code, try these prompts:
+
+```
+"Search for RAG courses on DeepLearning.AI"
+"What does the ChatGPT Prompt Engineering course cover?"
+"List all topics on DeepLearning.AI"
+"Find beginner agent courses"
+```
+
+If Claude invokes the tools and returns course data, it's working.
+
+### 3. MCP Inspector (visual tool explorer)
+
+```bash
+# For local server:
+cd dlai-mcp-server
+npm run build
+npx @modelcontextprotocol/inspector node dist/index.js
+
+# Opens a browser UI — click each tool, fill parameters, see responses
+```
+
+### 4. CLI quick test
+
+```bash
+# Test each tool from the terminal:
+bash tests/mcp-test.sh search_courses '{"query":"RAG"}'
+bash tests/mcp-test.sh search_courses '{"query":"agents","level":"Beginner"}'
+bash tests/mcp-test.sh list_topics '{}'
+bash tests/mcp-test.sh get_course_details '{"slug":"chatgpt-prompt-engineering-for-developers"}'
+```
+
+Expected output:
+```
+Results: 35 items
+  - Retrieval Augmented Generation (RAG)
+  - Building Multimodal Search and RAG
+  - Building Agentic RAG with LlamaIndex
+  ...
+```
+
+### 5. Unit tests
+
+```bash
+npm test
+# Expected: 25 passed (25), 0 failed
+```
+
+### 6. Verify data accuracy
+
+```bash
+# Compare cached data against live Algolia API:
+curl -s "https://Y5109WLMQW-dsn.algolia.net/1/indexes/courses_date_desc?query=&hitsPerPage=200" \
+  -H "X-Algolia-Application-Id: Y5109WLMQW" \
+  -H "X-Algolia-API-Key: 9030ff79d3ba653535d5b66c26b56683" | \
+  python3 -c "import json,sys; print(f'{len(json.load(sys.stdin)[\"hits\"])} courses live')"
+# Should match the number from /health endpoint
+```
+
 ## Development
 
 ```bash
@@ -182,24 +252,10 @@ npm run build
 npm test
 ```
 
-### Testing with MCP Inspector
-
-```bash
-npx @modelcontextprotocol/inspector node dist/index.js
-```
-
-### CLI test
-
-```bash
-bash tests/mcp-test.sh search_courses '{"query":"RAG"}'
-bash tests/mcp-test.sh list_topics '{}'
-bash tests/mcp-test.sh get_course_details '{"slug":"chatgpt-prompt-engineering-for-developers"}'
-```
-
 ## Cache Management
 
 ```bash
-# Force refresh (local mode)
+# Force refresh (local mode only)
 dlai-mcp-server --refresh-cache
 
 # Cache location
