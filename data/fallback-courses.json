@@ -1,0 +1,44 @@
+[
+  {
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "slug": "chatgpt-prompt-engineering-for-developers",
+    "description": "Learn prompt engineering best practices for application development",
+    "instructors": ["Isa Fulford", "Andrew Ng"],
+    "level": "Beginner",
+    "partner": "OpenAI",
+    "duration": "1 Hour",
+    "type": "Short Course",
+    "topics": ["Prompt Engineering", "ChatGPT"],
+    "url": "/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "landing_page": "/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "date": "2023-04-28"
+  },
+  {
+    "title": "LangChain for LLM Application Development",
+    "slug": "langchain-for-llm-application-development",
+    "description": "Learn to use LangChain to call LLMs into new environments and use memories, chains, and agents to build applications",
+    "instructors": ["Harrison Chase", "Andrew Ng"],
+    "level": "Beginner",
+    "partner": "LangChain",
+    "duration": "1 Hour",
+    "type": "Short Course",
+    "topics": ["LangChain", "LLMs", "Agents"],
+    "url": "/short-courses/langchain-for-llm-application-development/",
+    "landing_page": "/short-courses/langchain-for-llm-application-development/",
+    "date": "2023-06-08"
+  },
+  {
+    "title": "Building Systems with the ChatGPT API",
+    "slug": "building-systems-with-chatgpt",
+    "description": "Learn to automate complex workflows by chaining calls to a large language model",
+    "instructors": ["Isa Fulford", "Andrew Ng"],
+    "level": "Beginner",
+    "partner": "OpenAI",
+    "duration": "1 Hour",
+    "type": "Short Course",
+    "topics": ["ChatGPT", "API", "Automation"],
+    "url": "/short-courses/building-systems-with-chatgpt/",
+    "landing_page": "/short-courses/building-systems-with-chatgpt/",
+    "date": "2023-05-23"
+  }
+]

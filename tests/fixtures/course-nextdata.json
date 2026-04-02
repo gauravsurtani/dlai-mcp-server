@@ -1,0 +1,536 @@
+{
+  "props": {
+    "pageProps": {
+      "course": {
+        "id": "cG9zdDoyOTM2Nw==",
+        "title": "ChatGPT Prompt Engineering for Developers",
+        "slug": "chatgpt-prompt-engineering-for-developers",
+        "date": "2023-04-27T23:24:44",
+        "content": "\n<h2 class=\"wp-block-heading\" id=\"h-what-you-ll-learn-in-this-course\">What you’ll learn in this course</h2>\n\n\n\n<p>In <strong>ChatGPT Prompt Engineering for Developers, </strong>you will learn how to use a large language model (LLM) to quickly build new and powerful applications.&nbsp; Using the OpenAI API, you’ll be able to quickly build capabilities that learn to innovate and create value in ways that were cost-prohibitive, highly technical, or simply impossible before now.</p>\n\n\n\n<p>This short course taught by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI) will describe how LLMs work, provide best practices for prompt engineering, and show how LLM APIs can be used in applications for a variety of tasks, including:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Summarizing (e.g., summarizing user reviews for brevity)</li>\n\n\n\n<li>Inferring (e.g., sentiment classification, topic extraction)</li>\n\n\n\n<li>Transforming text (e.g., translation, spelling &amp; grammar correction)</li>\n\n\n\n<li>Expanding (e.g., automatically writing emails)</li>\n</ul>\n\n\n\n<p>In addition, you’ll learn two key principles for writing effective prompts, how to systematically engineer good prompts, and also learn to build a custom chatbot.&nbsp;</p>\n\n\n\n<p>All concepts are illustrated with numerous examples, which you can play with directly in our Jupyter notebook environment to get hands-on experience with prompt engineering.&nbsp;</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-in-partnership-with-openai\">In partnership with OpenAI</h2>\n\n\n\n<p>We are excited to collaborate with OpenAI in offering this course, designed to help developers effectively utilize LLMs. This course reflects the latest understanding of best practices for using prompts for the latest LLM models.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-who-should-join\">Who should join?</h2>\n\n\n\n<p><strong>ChatGPT Prompt Engineering for Developers</strong> is beginner-friendly. Only a basic understanding of Python is needed. But it is also suitable for advanced machine learning engineers wanting to approach the cutting-edge of prompt engineering and use LLMs.&nbsp;</p>\n",
+        "modified": "2025-10-14T14:03:19",
+        "featuredImage": {
+          "node": {
+            "altText": "ChatGPT Prompt Engineering for Developers",
+            "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/DLAI-OAI-Image-Preview.png",
+            "mediaDetails": {
+              "height": 628,
+              "width": 1200
+            }
+          }
+        },
+        "shortCourse": {
+          "primaryColor": "#f65b66",
+          "isPrivate": null,
+          "enrollUrl": "https://learn.deeplearning.ai/courses/chatgpt-prompt-eng",
+          "comingSoon": null,
+          "hubspotFormId": null,
+          "instructors": [
+            {
+              "role": {
+                "name": "Instructor",
+                "slug": "instructor",
+                "id": "dGVybTo4OA=="
+              },
+              "instructor": {
+                "id": "cG9zdDoyOTM5OQ==",
+                "slug": "isa-fulford",
+                "title": "Isa Fulford",
+                "person": {
+                  "role": "Instructor",
+                  "jobTitle": "Member of Technical Staff, OpenAI",
+                  "jobTitleRichText": null,
+                  "linkedinUrl": "https://www.linkedin.com/in/isabella-fulford/",
+                  "twitterUrl": "https://twitter.com/isafulf",
+                  "websiteUrl": null
+                },
+                "featuredImage": {
+                  "node": {
+                    "id": "cG9zdDoyOTQwMA==",
+                    "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/1613962099389.jpeg"
+                  }
+                }
+              }
+            },
+            {
+              "role": {
+                "name": "Instructor",
+                "slug": "instructor",
+                "id": "dGVybTo4OA=="
+              },
+              "instructor": {
+                "id": "cG9zdDoxMTQ=",
+                "slug": "andrew-ng",
+                "title": "Andrew Ng",
+                "person": {
+                  "role": "Instructor",
+                  "jobTitle": "Founder, DeepLearning.AI; Co-founder, Coursera",
+                  "jobTitleRichText": null,
+                  "linkedinUrl": "https://www.linkedin.com/in/andrewyng/",
+                  "twitterUrl": "https://twitter.com/AndrewYNg",
+                  "websiteUrl": "https://www.andrewng.org"
+                },
+                "featuredImage": {
+                  "node": {
+                    "id": "cG9zdDoxMTU=",
+                    "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2020/12/headshot-andrew-ng.jpg"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "platformConnection": {
+          "platformEnNames": [
+            {
+              "enName": "chatgpt-prompt-eng"
+            }
+          ]
+        },
+        "visualEditor": {
+          "pageLayout": [
+            {
+              "title": "ChatGPT Prompt Engineering for Developers",
+              "titleColor": "#FFFFFF",
+              "cta": {
+                "title": "Learn for Free",
+                "url": "https://learn.deeplearning.ai/courses/chatgpt-prompt-eng",
+                "hubspotForm": null
+              },
+              "level": "Beginner",
+              "duration": "1 Hour",
+              "instructors": "Isa Fulford, Andrew Ng",
+              "cost": "Free for a limited time",
+              "partnership": {
+                "title": "OpenAI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openAI.png"
+                },
+                "partnerList": null
+              },
+              "background": null,
+              "backgroundImage": null,
+              "illustration": {
+                "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/10/Your-paragraph-text.png"
+              },
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_HeroShortCourse",
+              "heroPartnerUrl": "https://openai.com/"
+            },
+            {
+              "featuresGrid": [
+                {
+                  "feature": "Learn prompt engineering best practices for application development",
+                  "featureReachText": "<p>Learn prompt engineering best practices for application development</p>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n"
+                },
+                {
+                  "feature": "Discover new ways to use LLMs, including how to build your own custom chatbot",
+                  "featureReachText": "<p>Discover new ways to use LLMs, including how to build your own custom chatbot</p>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n"
+                },
+                {
+                  "feature": "Gain hands-on practice writing and iterating on prompts yourself using the OpenAI API",
+                  "featureReachText": "<p>Gain hands-on practice writing and iterating on prompts yourself using the OpenAI API</p>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n"
+                }
+              ],
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_FeaturesGrid"
+            },
+            {
+              "youtubeVideoId": "H4YK_7MAckk",
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_YoutubeVideo",
+              "cta": {
+                "title": "Learn for Free",
+                "url": "https://learn.deeplearning.ai/courses/chatgpt-prompt-eng",
+                "hubspotForm": null
+              },
+              "thumbnail": {
+                "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/5_chatgpt-prompt-eng.webp"
+              },
+              "styles": {
+                "section": null,
+                "paddingTop": null
+              }
+            },
+            {
+              "title": "About this course",
+              "body": "\r\n\r\nIn <strong>ChatGPT Prompt Engineering for Developers, </strong>you will learn how to use a large language model (LLM) to quickly build new and powerful applications.  Using the OpenAI API, you’ll be able to quickly build capabilities that learn to innovate and create value in ways that were cost-prohibitive, highly technical, or simply impossible before now.\r\n\r\n \r\n\r\nThis short course taught by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI) will describe how LLMs work, provide best practices for prompt engineering, and show how LLM APIs can be used in applications for a variety of tasks, including:\r\n<ul>\r\n \t<li>Summarizing (e.g., summarizing user reviews for brevity)</li>\r\n \t<li>Inferring (e.g., sentiment classification, topic extraction)</li>\r\n \t<li>Transforming text (e.g., translation, spelling &amp; grammar correction)</li>\r\n \t<li>Expanding (e.g., automatically writing emails)</li>\r\n \t<li style=\"list-style-type: none;\">\r\n<ul></ul>\r\n</li>\r\n</ul>\r\n\r\n\r\n \r\n\r\nIn addition, you’ll learn two key principles for writing effective prompts, how to systematically engineer good prompts, and also learn to build a custom chatbot.\r\n\r\n \r\n\r\nAll concepts are illustrated with numerous examples, which you can play with directly in our Jupyter notebook environment to get hands-on experience with prompt engineering",
+              "styles": {
+                "section": "section--default",
+                "paddingTop": null
+              },
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_TextBlock"
+            },
+            {
+              "title": "In partnership with OpenAI",
+              "body": "<p>We are excited to collaborate with OpenAI in offering this course, designed to help developers effectively utilize LLMs. This course reflects the latest understanding of best practices for using prompts for the latest LLM models.</p>\n<div style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n",
+              "styles": {
+                "section": "section--default",
+                "paddingTop": "pt-0"
+              },
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_TextBlock"
+            },
+            {
+              "title": "Who should join?",
+              "body": "<p><strong>ChatGPT Prompt Engineering for Developers</strong> is beginner-friendly. Only a basic understanding of Python is needed. But it is also suitable for advanced machine learning engineers wanting to approach the cutting-edge of prompt engineering and use LLMs.</p>\n<div style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n<div class=\"pixiebrix-notifier-container\" style=\"all: initial;\">\n<div style=\"position: fixed; z-index: 2147483647; inset: 16px; pointer-events: none; font-family: sans-serif;\"></div>\n</div>\n",
+              "styles": {
+                "section": "section--default",
+                "paddingTop": "pt-0"
+              },
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_TextBlock"
+            },
+            {
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_Instructors"
+            },
+            {
+              "quote": "Generative AI offers many opportunities for AI engineers to build, in minutes or hours, powerful applications that previously would have taken days or weeks. I’m excited about sharing these best practices to enable many more people to take advantage of these revolutionary new capabilities.",
+              "name": "Andrew Ng",
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_QuoteLarge"
+            },
+            {
+              "title": "Course access is free for a limited time during the DeepLearning.AI learning platform beta!\r\n",
+              "buttonName": "Learn for Free",
+              "hubspotForm": null,
+              "url": "https://learn.deeplearning.ai/courses/chatgpt-prompt-eng",
+              "background": null,
+              "illustration": null,
+              "backgroundImage": null,
+              "buttonVariant": "white",
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_Cta"
+            },
+            {
+              "title": "Want to learn more about Generative AI?\r\n",
+              "content": "Keep learning with updates on curated AI news, courses, events, as well as Andrew’s thoughts from DeepLearning.AI!\r\n\r\n",
+              "fieldGroupName": "ShortCourse_Visualeditor_PageLayout_NewsletterShortCourse"
+            }
+          ]
+        },
+        "courseIndexPageCardFields": {
+          "indexPageCardPartnership": [
+            {
+              "title": "OpenAI",
+              "logo": {
+                "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png"
+              }
+            }
+          ]
+        },
+        "seo": {
+          "canonical": "",
+          "title": "ChatGPT Prompt Engineering for Developers - DeepLearning.AI",
+          "metaKeywords": "",
+          "metaDesc": "Level up your use of LLMs with prompt engineering best practices. Learn to automate workflows, chain LLM calls, and build a custom chatbot.",
+          "metaRobotsNofollow": "follow",
+          "metaRobotsNoindex": "noindex",
+          "opengraphDescription": "Level up your use of LLMs with prompt engineering best practices. Learn to automate workflows, chain LLM calls, and build a custom chatbot.",
+          "opengraphImage": {
+            "altText": "ChatGPT Prompt Engineering for Developers",
+            "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/DLAI-OAI-Image-Preview.png",
+            "mediaDetails": {
+              "width": 1200,
+              "height": 628
+            }
+          },
+          "opengraphTitle": "ChatGPT Prompt Engineering for Developers",
+          "opengraphType": "article",
+          "twitterDescription": "",
+          "twitterTitle": ""
+        }
+      },
+      "outlineList": [
+        [
+          {
+            "index": 1,
+            "slug": "dfbds",
+            "name": "Introduction",
+            "type": "video",
+            "videoId": 20,
+            "time": 388,
+            "programId": null,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": false,
+              "saveNotebookCustomjsEnabled": false
+            },
+            "optional": false
+          },
+          {
+            "index": 2,
+            "slug": "zi9lz",
+            "name": "Guidelines",
+            "type": "video_notebook",
+            "videoId": 21,
+            "time": 1040,
+            "programId": 5001,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 3,
+            "slug": "so7ui",
+            "name": "Iterative",
+            "type": "video_notebook",
+            "videoId": 22,
+            "time": 799,
+            "programId": 5002,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 4,
+            "slug": "px4pd",
+            "name": "Summarizing",
+            "type": "video_notebook",
+            "videoId": 23,
+            "time": 453,
+            "programId": 5003,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 5,
+            "slug": "tyucw",
+            "name": "Inferring",
+            "type": "video_notebook",
+            "videoId": 24,
+            "time": 719,
+            "programId": 5004,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 6,
+            "slug": "ycefn",
+            "name": "Transforming",
+            "type": "video_notebook",
+            "videoId": 25,
+            "time": 751,
+            "programId": 5005,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 7,
+            "slug": "imsux",
+            "name": "Expanding",
+            "type": "video_notebook",
+            "videoId": 26,
+            "time": 398,
+            "programId": 5006,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 8,
+            "slug": "jtmdv",
+            "name": "Chatbot",
+            "type": "video_notebook",
+            "videoId": 27,
+            "time": 733,
+            "programId": 5007,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": true,
+              "saveNotebookCustomjsEnabled": true
+            },
+            "optional": false
+          },
+          {
+            "index": 9,
+            "slug": "fam6w",
+            "name": "Conclusion",
+            "type": "video",
+            "videoId": 28,
+            "time": 148,
+            "programId": null,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": null,
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "full",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": false,
+              "saveNotebookCustomjsEnabled": false
+            },
+            "optional": false
+          },
+          {
+            "index": 10,
+            "slug": "nzo6j",
+            "name": "Quiz",
+            "type": "quiz",
+            "videoId": null,
+            "time": 0,
+            "programId": null,
+            "chatbotId": null,
+            "iframeUrl": null,
+            "quizId": "BB97363CDC5F4EBBB7171BBE",
+            "progress": 0,
+            "readingMaterialId": null,
+            "accessControl": "locked",
+            "requiredUserTier": "pro",
+            "features": {
+              "saveNotebookToolbar": false,
+              "saveNotebookCustomjsEnabled": false
+            },
+            "optional": false
+          }
+        ]
+      ],
+      "announcementBanners": {
+        "nodes": [
+          {
+            "title": "Oracle C1",
+            "date": "2026-03-18T07:51:15",
+            "databaseId": 37708,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/418m1lc",
+              "courseName": "Agent Memory: Building Memory-Aware Agents",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(64, 43, 24, 1) 0%, rgba(240, 75, 34, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Google C9 (JAX)",
+            "date": "2026-03-04T06:37:14",
+            "databaseId": 37679,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/4rNe6oZ",
+              "courseName": "Build and Train an LLM with JAX",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(2, 17, 48, 1) 0%, rgba(0, 13, 92, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Google C8 (A2A)",
+            "date": "2026-02-11T06:17:09",
+            "databaseId": 37650,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/4rMrJVo",
+              "courseName": "A2A: The Agent2Agent Protocol",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(22, 39, 58, 1) 0%, rgba(10, 89, 191, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Anthropic C4",
+            "date": "2026-01-28T05:50:04",
+            "databaseId": 37621,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/3LHDqNI",
+              "courseName": "Agent Skills with Anthropic",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(204, 121, 93, 1) 0%, rgba(209, 150, 117, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Google C7 (Gemini CLI)",
+            "date": "2026-01-21T06:38:41",
+            "databaseId": 37607,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/3NrMVB7",
+              "courseName": "Gemini CLI: Code & Create with an Open-Source Agent",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(35, 35, 49, 1) 0%, rgba(24, 20, 3, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          }
+        ]
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/short-courses/[slug]",
+  "query": {
+    "slug": "chatgpt-prompt-engineering-for-developers"
+  },
+  "buildId": "k66b9MtngnxwXbCh5xdCQ",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "dlai-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for discovering DeepLearning.AI courses from AI coding tools",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "dlai-mcp-server": "./bin/dlai-mcp-server.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --target node18 --dts",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build",
+    "update-fallback": "tsx scripts/update-fallback.ts"
+  },
+  "keywords": ["mcp", "deeplearning-ai", "courses", "claude-code", "ai-tools"],
+  "author": "Gaurav Surtani",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cheerio": "^1.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "data",
+    "README.md"
+  ]
+}

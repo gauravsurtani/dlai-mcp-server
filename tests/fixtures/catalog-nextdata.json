@@ -1,0 +1,2912 @@
+{
+  "props": {
+    "pageProps": {
+      "page": {
+        "id": "cG9zdDoyNzA4Ng==",
+        "slug": "courses",
+        "title": "Courses",
+        "excerpt": "",
+        "featuredImage": {
+          "node": {
+            "altText": "",
+            "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/course-index-preview-v2.png",
+            "mediaDetails": {
+              "height": 1260,
+              "width": 2400
+            }
+          }
+        },
+        "date": "2022-07-14T05:59:23",
+        "modified": "2026-04-01T23:13:12",
+        "seo": {
+          "canonical": "",
+          "title": "Courses - DeepLearning.AI",
+          "metaKeywords": "",
+          "metaDesc": "Discover the best courses to build a career in AI | Whether you're a beginner or an experienced practitioner, our world-class curriculum and unique teaching methodology will guide you through every stage of your Al journey.",
+          "metaRobotsNofollow": "follow",
+          "metaRobotsNoindex": "noindex",
+          "opengraphDescription": "Discover the best courses to build a career in AI | Whether you're a beginner or an experienced practitioner, our world-class curriculum and unique teaching methodology will guide you through every stage of your Al journey.",
+          "opengraphImage": {
+            "altText": "",
+            "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/course-index-preview-v2.png",
+            "mediaDetails": {
+              "width": 2400,
+              "height": 1260
+            }
+          },
+          "opengraphTitle": "Courses",
+          "opengraphType": "article",
+          "twitterDescription": "",
+          "twitterTitle": ""
+        },
+        "coursesPage": {
+          "featuredCourses": [
+            {
+              "__typename": "ShortCourse",
+              "slug": "ai-python-for-beginners",
+              "title": "AI Python for Beginners",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "AI Python for Beginners",
+                "indexPageCardExcerpt": "Learn Python programming with AI assistance. Gain skills writing, testing, and debugging code efficiently, and create real-world AI applications.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/08/Most-Popular-section-card-2.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            },
+            {
+              "__typename": "ShortCourse",
+              "slug": "chatgpt-prompt-engineering-for-developers",
+              "title": "ChatGPT Prompt Engineering for Developers",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "ChatGPT Prompt Engineering for Developers",
+                "indexPageCardExcerpt": "Learn the fundamentals of prompt engineering for ChatGPT. Learn effective prompting, and how to use LLMs for summarizing, inferring, transforming, and expanding.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/chatgpt-prompt-for-engineering.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "OpenAI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            },
+            {
+              "__typename": "Program",
+              "slug": "generative-ai-for-everyone",
+              "title": "Generative AI for Everyone",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Generative AI for Everyone",
+                "indexPageCardExcerpt": "Learn how to use generative AI's capabilities & limitations. Get an overview of real-world examples, and impact on business & society for effective strategies.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/10/GenAI4E_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Courses"
+              }
+            },
+            {
+              "__typename": "Program",
+              "slug": "machine-learning-specialization",
+              "title": "Machine Learning Specialization",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Machine Learning Specialization",
+                "indexPageCardExcerpt": "Learn foundational AI concepts through an intuitive visual approach, then learn the code needed to implement the algorithms and math for ML.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/MLS-index-card_2x-1.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2021/03/Icon-512size.png"
+                    }
+                  },
+                  {
+                    "title": "Stanford Online",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/stanford-online.webp"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Specializations"
+              }
+            },
+            {
+              "__typename": "ShortCourse",
+              "slug": "multi-ai-agent-systems-with-crewai",
+              "title": "Multi AI Agent Systems with crewAI",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Multi AI Agent Systems with crewAI",
+                "indexPageCardExcerpt": "Automate business workflows with multi-AI agent systems. Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewAI_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "crewAI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            },
+            {
+              "__typename": "ShortCourse",
+              "slug": "langchain-for-llm-application-development",
+              "title": "LangChain for LLM Application Development",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "LangChain for LLM Application Development",
+                "indexPageCardExcerpt": "Use the powerful and extensible LangChain framework, using prompts, parsing, memory, chains, question answering, and agents.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/05/langchain-for-llm-application-development.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "LangChain",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            },
+            {
+              "__typename": "Program",
+              "slug": "ai-for-everyone",
+              "title": "AI for Everyone",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "AI for Everyone",
+                "indexPageCardExcerpt": "Learn about AI technologies and how to use them. Examine AI's societal impact, and learn to navigate this technological shift.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2020/12/AI4E_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Courses"
+              }
+            }
+          ],
+          "topRatedCourses": [
+            {
+              "__typename": "Program",
+              "slug": "generative-ai-for-everyone",
+              "title": "Generative AI for Everyone",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Generative AI for Everyone",
+                "indexPageCardExcerpt": "Learn how to use generative AI's capabilities & limitations. Get an overview of real-world examples, and impact on business & society for effective strategies.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/10/GenAI4E_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Courses"
+              }
+            },
+            {
+              "__typename": "Program",
+              "slug": "machine-learning-specialization",
+              "title": "Machine Learning Specialization",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Machine Learning Specialization",
+                "indexPageCardExcerpt": "Learn foundational AI concepts through an intuitive visual approach, then learn the code needed to implement the algorithms and math for ML.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/MLS-index-card_2x-1.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2021/03/Icon-512size.png"
+                    }
+                  },
+                  {
+                    "title": "Stanford Online",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/stanford-online.webp"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Specializations"
+              }
+            },
+            {
+              "__typename": "ShortCourse",
+              "slug": "multi-ai-agent-systems-with-crewai",
+              "title": "Multi AI Agent Systems with crewAI",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Multi AI Agent Systems with crewAI",
+                "indexPageCardExcerpt": "Automate business workflows with multi-AI agent systems. Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewAI_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "crewAI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            },
+            {
+              "__typename": "ShortCourse",
+              "slug": "open-source-models-hugging-face",
+              "title": "Open Source Models with Hugging Face",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Open Source Models with Hugging Face",
+                "indexPageCardExcerpt": "Learn how to easily build AI applications using open-source models and Hugging Face tools. Find and filter open-source models on Hugging Face Hub.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/03/HF-C3_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "Hugging Face",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            },
+            {
+              "__typename": "Program",
+              "slug": "deep-learning-specialization",
+              "title": "Deep Learning Specialization",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "Deep Learning Specialization",
+                "indexPageCardExcerpt": "Build neural networks (CNNs, RNNs, LSTMs, Transformers) and apply them to speech recognition, NLP, and more using Python and TensorFlow.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2020/12/DLS_2x.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Specializations"
+              }
+            },
+            {
+              "__typename": "ShortCourse",
+              "slug": "langchain-chat-with-your-data",
+              "title": "LangChain: Chat with Your Data",
+              "courseIndexPageCardFields": {
+                "indexPageCardTitle": "LangChain: Chat with Your Data",
+                "indexPageCardExcerpt": "Create a chatbot with LangChain to interface with your private data and documents. Learn from LangChain creator, Harrison Chase.",
+                "indexPageCardImage": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/07/Most-Popular-course-cards-2.png"
+                },
+                "indexPageCardPartnership": [
+                  {
+                    "title": "LangChain",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png"
+                    }
+                  }
+                ]
+              },
+              "courseFilters": {
+                "filterCourseType": "Short Courses"
+              }
+            }
+          ]
+        }
+      },
+      "featuredCourses": [
+        {
+          "__typename": "ShortCourse",
+          "slug": "ai-python-for-beginners",
+          "title": "AI Python for Beginners",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "AI Python for Beginners",
+            "indexPageCardExcerpt": "Learn Python programming with AI assistance. Gain skills writing, testing, and debugging code efficiently, and create real-world AI applications.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/08/Most-Popular-section-card-2.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        },
+        {
+          "__typename": "ShortCourse",
+          "slug": "chatgpt-prompt-engineering-for-developers",
+          "title": "ChatGPT Prompt Engineering for Developers",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "ChatGPT Prompt Engineering for Developers",
+            "indexPageCardExcerpt": "Learn the fundamentals of prompt engineering for ChatGPT. Learn effective prompting, and how to use LLMs for summarizing, inferring, transforming, and expanding.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/chatgpt-prompt-for-engineering.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "OpenAI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        },
+        {
+          "__typename": "Program",
+          "slug": "generative-ai-for-everyone",
+          "title": "Generative AI for Everyone",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Generative AI for Everyone",
+            "indexPageCardExcerpt": "Learn how to use generative AI's capabilities & limitations. Get an overview of real-world examples, and impact on business & society for effective strategies.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/10/GenAI4E_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Courses"
+          }
+        },
+        {
+          "__typename": "Program",
+          "slug": "machine-learning-specialization",
+          "title": "Machine Learning Specialization",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Machine Learning Specialization",
+            "indexPageCardExcerpt": "Learn foundational AI concepts through an intuitive visual approach, then learn the code needed to implement the algorithms and math for ML.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/MLS-index-card_2x-1.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2021/03/Icon-512size.png"
+                }
+              },
+              {
+                "title": "Stanford Online",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/stanford-online.webp"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Specializations"
+          }
+        },
+        {
+          "__typename": "ShortCourse",
+          "slug": "multi-ai-agent-systems-with-crewai",
+          "title": "Multi AI Agent Systems with crewAI",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Multi AI Agent Systems with crewAI",
+            "indexPageCardExcerpt": "Automate business workflows with multi-AI agent systems. Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewAI_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "crewAI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        },
+        {
+          "__typename": "ShortCourse",
+          "slug": "langchain-for-llm-application-development",
+          "title": "LangChain for LLM Application Development",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "LangChain for LLM Application Development",
+            "indexPageCardExcerpt": "Use the powerful and extensible LangChain framework, using prompts, parsing, memory, chains, question answering, and agents.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/05/langchain-for-llm-application-development.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "LangChain",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        },
+        {
+          "__typename": "Program",
+          "slug": "ai-for-everyone",
+          "title": "AI for Everyone",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "AI for Everyone",
+            "indexPageCardExcerpt": "Learn about AI technologies and how to use them. Examine AI's societal impact, and learn to navigate this technological shift.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2020/12/AI4E_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Courses"
+          }
+        }
+      ],
+      "topRatedCourses": [
+        {
+          "__typename": "Program",
+          "slug": "generative-ai-for-everyone",
+          "title": "Generative AI for Everyone",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Generative AI for Everyone",
+            "indexPageCardExcerpt": "Learn how to use generative AI's capabilities & limitations. Get an overview of real-world examples, and impact on business & society for effective strategies.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/10/GenAI4E_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Courses"
+          }
+        },
+        {
+          "__typename": "Program",
+          "slug": "machine-learning-specialization",
+          "title": "Machine Learning Specialization",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Machine Learning Specialization",
+            "indexPageCardExcerpt": "Learn foundational AI concepts through an intuitive visual approach, then learn the code needed to implement the algorithms and math for ML.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/MLS-index-card_2x-1.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2021/03/Icon-512size.png"
+                }
+              },
+              {
+                "title": "Stanford Online",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/04/stanford-online.webp"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Specializations"
+          }
+        },
+        {
+          "__typename": "ShortCourse",
+          "slug": "multi-ai-agent-systems-with-crewai",
+          "title": "Multi AI Agent Systems with crewAI",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Multi AI Agent Systems with crewAI",
+            "indexPageCardExcerpt": "Automate business workflows with multi-AI agent systems. Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewAI_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "crewAI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        },
+        {
+          "__typename": "ShortCourse",
+          "slug": "open-source-models-hugging-face",
+          "title": "Open Source Models with Hugging Face",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Open Source Models with Hugging Face",
+            "indexPageCardExcerpt": "Learn how to easily build AI applications using open-source models and Hugging Face tools. Find and filter open-source models on Hugging Face Hub.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/03/HF-C3_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "Hugging Face",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        },
+        {
+          "__typename": "Program",
+          "slug": "deep-learning-specialization",
+          "title": "Deep Learning Specialization",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "Deep Learning Specialization",
+            "indexPageCardExcerpt": "Build neural networks (CNNs, RNNs, LSTMs, Transformers) and apply them to speech recognition, NLP, and more using Python and TensorFlow.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2020/12/DLS_2x.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "DeepLearning.AI",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Specializations"
+          }
+        },
+        {
+          "__typename": "ShortCourse",
+          "slug": "langchain-chat-with-your-data",
+          "title": "LangChain: Chat with Your Data",
+          "courseIndexPageCardFields": {
+            "indexPageCardTitle": "LangChain: Chat with Your Data",
+            "indexPageCardExcerpt": "Create a chatbot with LangChain to interface with your private data and documents. Learn from LangChain creator, Harrison Chase.",
+            "indexPageCardImage": {
+              "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/07/Most-Popular-course-cards-2.png"
+            },
+            "indexPageCardPartnership": [
+              {
+                "title": "LangChain",
+                "logo": {
+                  "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png"
+                }
+              }
+            ]
+          },
+          "courseFilters": {
+            "filterCourseType": "Short Courses"
+          }
+        }
+      ],
+      "announcementBanners": {
+        "nodes": [
+          {
+            "title": "Oracle C1",
+            "date": "2026-03-18T07:51:15",
+            "databaseId": 37708,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/418m1lc",
+              "courseName": "Agent Memory: Building Memory-Aware Agents",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(64, 43, 24, 1) 0%, rgba(240, 75, 34, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Google C9 (JAX)",
+            "date": "2026-03-04T06:37:14",
+            "databaseId": 37679,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/4rNe6oZ",
+              "courseName": "Build and Train an LLM with JAX",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(2, 17, 48, 1) 0%, rgba(0, 13, 92, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Google C8 (A2A)",
+            "date": "2026-02-11T06:17:09",
+            "databaseId": 37650,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/4rMrJVo",
+              "courseName": "A2A: The Agent2Agent Protocol",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(22, 39, 58, 1) 0%, rgba(10, 89, 191, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Anthropic C4",
+            "date": "2026-01-28T05:50:04",
+            "databaseId": 37621,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/3LHDqNI",
+              "courseName": "Agent Skills with Anthropic",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(204, 121, 93, 1) 0%, rgba(209, 150, 117, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          },
+          {
+            "title": "Google C7 (Gemini CLI)",
+            "date": "2026-01-21T06:38:41",
+            "databaseId": 37607,
+            "announcementBannerCustomFields": {
+              "text": "✨ New course! Enroll in",
+              "textColor": "#FFFFFF",
+              "courseLink": "https://bit.ly/3NrMVB7",
+              "courseName": "Gemini CLI: Code & Create with an Open-Source Agent",
+              "backgroundColor": "#05256C",
+              "backgroundGradientColor": "linear-gradient(90deg,rgba(35, 35, 49, 1) 0%, rgba(24, 20, 3, 1) 100%)",
+              "isOpenInNewTab": true
+            }
+          }
+        ]
+      },
+      "initialResults": {
+        "results": [
+          {
+            "hits": [
+              {
+                "title": "Agent Memory: Building Memory-Aware Agents",
+                "slug": "agent-memory-building-memory-aware-agents",
+                "date": "2026-03-13T09:52:37",
+                "date_timestamp": 1773395557000,
+                "landing_page": "/short-courses/agent-memory-building-memory-aware-agents",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Oracle"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Build a complete agent memory system that lets an LLM store, retrieve, and refine knowledge across sessions—turning a stateless agent into one that learns and improves over time.",
+                "partnershipInfos": [
+                  {
+                    "title": "Oracle",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/03/Oracle-Square-Logo.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Richmond Alake and Nacho Martínez",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzY5NA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Agent Memory: Building Memory-Aware Agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "agent-memory-building-memory-aware-agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Oracle",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build a complete agent memory system that lets an LLM store, retrieve, and refine knowledge across sessions—turning a stateless agent into one that learns and improves over time.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Richmond Alake and Nacho Martínez",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Build and Train an LLM with JAX",
+                "slug": "build-and-train-an-llm-with-jax",
+                "date": "2026-02-25T08:55:58",
+                "date_timestamp": 1772009758000,
+                "landing_page": "/short-courses/build-and-train-an-llm-with-jax",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Google"
+                ],
+                "topic": [
+                  "GenAI Applications"
+                ],
+                "description": "Build and train a 20M-parameter LLM from scratch using JAX, the open-source library behind Google's Gemini, and learn the core techniques powering modern AI development.",
+                "partnershipInfos": [
+                  {
+                    "title": "Google",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Google-Square-Icon.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Chris Achard",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzY2OQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Build and Train an LLM with JAX",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "build-and-train-an-llm-with-jax",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Google",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "GenAI Applications",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build and train a 20M-parameter LLM from scratch using JAX, the open-source library behind Google's Gemini, and learn the core techniques powering modern AI development.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Chris Achard",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "A2A: The Agent2Agent Protocol",
+                "slug": "a2a-the-agent2agent-protocol",
+                "date": "2026-01-29T14:08:30",
+                "date_timestamp": 1769695710000,
+                "landing_page": "/short-courses/a2a-the-agent2agent-protocol",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Google Cloud",
+                  "IBM Research"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Connect agents across different frameworks and teams using A2A, the open protocol standardizing agent-to-agent communication.",
+                "partnershipInfos": [
+                  {
+                    "title": "Google Cloud",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png"
+                    }
+                  },
+                  {
+                    "title": "IBM Research",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/01/Xy93qVY4_400x400.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Holt Skinner, Ivan Nardini, Sandi Besen",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzYyNw==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "A2A: The Agent2Agent Protocol",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "a2a-the-agent2agent-protocol",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Google Cloud",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "IBM Research",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Connect agents across different frameworks and teams using A2A, the open protocol standardizing agent-to-agent communication.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Holt Skinner, Ivan Nardini, Sandi Besen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Agent Skills with Anthropic",
+                "slug": "agent-skills-with-anthropic",
+                "date": "2026-01-26T09:01:24",
+                "date_timestamp": 1769418084000,
+                "landing_page": "/short-courses/agent-skills-with-anthropic",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Beginner"
+                ],
+                "partnership": [
+                  "Anthropic"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Equip agents with expert on-demand knowledge to enable reliable coding, research, and data analysis workflows",
+                "partnershipInfos": [
+                  {
+                    "title": "Anthropic",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/08/Anthropic-Square-Logo.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Elie Schoppik",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzYxMQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Agent Skills with Anthropic",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "agent-skills-with-anthropic",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Anthropic",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Equip agents with expert on-demand knowledge to enable reliable coding, research, and data analysis workflows",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Elie Schoppik",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Gemini CLI: Code & Create with an Open-Source Agent",
+                "slug": "gemini-cli-code-and-create-with-an-open-source-agent",
+                "date": "2026-01-15T12:11:37",
+                "date_timestamp": 1768479097000,
+                "landing_page": "/short-courses/gemini-cli-code-and-create-with-an-open-source-agent",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Beginner"
+                ],
+                "partnership": [
+                  "Gemini CLI"
+                ],
+                "topic": [
+                  "AI Coding",
+                  "Task Automation"
+                ],
+                "description": "Build real-world applications from the command line using Gemini CLI, Google's open-source agentic coding assistant that coordinates local tools and cloud services to automate coding and creative workflows.",
+                "partnershipInfos": [
+                  {
+                    "title": "Gemini CLI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/01/Gemini-CLI-logo-2.png"
+                    }
+                  }
+                ],
+                "instructors": "Jack Wotherspoon",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzU4OA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Gemini CLI: Code & Create with an Open-Source Agent",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "gemini-cli-code-and-create-with-an-open-source-agent",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Gemini CLI",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "AI Coding",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Task Automation",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build real-world applications from the command line using Gemini CLI, Google's open-source agentic coding assistant that coordinates local tools and cloud services to automate coding and creative workflows.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Jack Wotherspoon",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Document AI: From OCR to Agentic Doc Extraction",
+                "slug": "document-ai-from-ocr-to-agentic-doc-extraction",
+                "date": "2026-01-12T08:59:30",
+                "date_timestamp": 1768208370000,
+                "landing_page": "/short-courses/document-ai-from-ocr-to-agentic-doc-extraction",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "LandingAI"
+                ],
+                "topic": [
+                  "Document Processing"
+                ],
+                "description": "Build agentic systems to parse documents and extract information grounded in visual components like charts, tables, and forms.",
+                "partnershipInfos": [
+                  {
+                    "title": "LandingAI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2026/01/1YPR2I1r_400x400.jpg"
+                    }
+                  }
+                ],
+                "instructors": "David Park, Andrea Kropp",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzU0MQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Document AI: From OCR to Agentic Doc Extraction",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "document-ai-from-ocr-to-agentic-doc-extraction",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "LandingAI",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Document Processing",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build agentic systems to parse documents and extract information grounded in visual components like charts, tables, and forms.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "David Park, Andrea Kropp",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Build with Andrew",
+                "slug": "build-with-andrew",
+                "date": "2026-01-02T06:33:02",
+                "date_timestamp": 1767335582000,
+                "landing_page": "/courses/build-with-andrew",
+                "course_type": "Courses",
+                "skill_level": [
+                  "Beginner"
+                ],
+                "partnership": [
+                  null
+                ],
+                "topic": [
+                  "AI Coding"
+                ],
+                "description": "If you've never written code before, this course is for you. In less than 30 minutes, you'll learn to describe an idea in words and let AI transform it into an app for you.",
+                "partnershipInfos": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ],
+                "instructors": "Andrew Ng",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzUzOQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Build with Andrew",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "build-with-andrew",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "topic": [
+                    {
+                      "value": "AI Coding",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "If you've never written code before, this course is for you. In less than 30 minutes, you'll learn to describe an idea in words and let AI transform it into an app for you.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Andrew Ng",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Nvidia's NeMo Agent Toolkit: Making Agents Reliable",
+                "slug": "nvidia-nat-making-agents-reliable",
+                "date": "2025-12-10T13:00:34",
+                "date_timestamp": 1765371634000,
+                "landing_page": "/short-courses/nvidia-nat-making-agents-reliable",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Nvidia"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Turn proof-of-concept agent demos into production-ready systems using observability, evaluation, and deployment tools from Nvidia's NeMo Agent Toolkit.",
+                "partnershipInfos": [
+                  {
+                    "title": "Nvidia",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/12/nvidia-square-logo.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Brian McBrayer",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzUyMQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Nvidia's NeMo Agent Toolkit: Making Agents Reliable",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "nvidia-nat-making-agents-reliable",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Nvidia",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Turn proof-of-concept agent demos into production-ready systems using observability, evaluation, and deployment tools from Nvidia's NeMo Agent Toolkit.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Brian McBrayer",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Multi-Vector Image Retrieval",
+                "slug": "multi-vector-image-retrieval",
+                "date": "2025-12-04T13:25:53",
+                "date_timestamp": 1764854753000,
+                "landing_page": "/short-courses/multi-vector-image-retrieval",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Qdrant"
+                ],
+                "topic": [
+                  "AI Coding",
+                  "Search and Retrieval"
+                ],
+                "description": "Build advanced retrieval systems that represent images with multiple vectors, enabling fine-grained matching between text queries and visual content for accurate multi-modal search.",
+                "partnershipInfos": [
+                  {
+                    "title": "Qdrant",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/12/Ep6nI7ky_400x400.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Kacper Łukawski",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzUxMg==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Multi-Vector Image Retrieval",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "multi-vector-image-retrieval",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Qdrant",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "AI Coding",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Search and Retrieval",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build advanced retrieval systems that represent images with multiple vectors, enabling fine-grained matching between text queries and visual content for accurate multi-modal search.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Kacper Łukawski",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Building Coding Agents with Tool Execution",
+                "slug": "building-coding-agents-with-tool-execution",
+                "date": "2025-11-24T13:48:49",
+                "date_timestamp": 1763992129000,
+                "landing_page": "/short-courses/building-coding-agents-with-tool-execution",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Redis"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Build AI agents that write and execute code to accomplish tasks, running safely in sandboxed cloud environments that protect your systems from untrusted code.",
+                "partnershipInfos": [
+                  {
+                    "title": "E2B",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/11/tl2wUDJ5_400x400.png"
+                    }
+                  }
+                ],
+                "instructors": "Tereza Tizkova, Francesco Zuppichini",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzQ5MA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Building Coding Agents with Tool Execution",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "building-coding-agents-with-tool-execution",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Redis",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build AI agents that write and execute code to accomplish tasks, running safely in sandboxed cloud environments that protect your systems from untrusted code.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Tereza Tizkova, Francesco Zuppichini",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Semantic Caching for AI Agents",
+                "slug": "semantic-caching-for-ai-agents",
+                "date": "2025-11-13T19:29:16",
+                "date_timestamp": 1763062156000,
+                "landing_page": "/short-courses/semantic-caching-for-ai-agents",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Redis"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Speed up and reduce the costs of your AI agents by implementing semantic caching that reuses responses based on meaning rather than exact text.",
+                "partnershipInfos": [
+                  {
+                    "title": "Redis",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/11/kxNqq_Gc_400x400.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Tyler Hutcherson, Iliya Zhechev",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzQzNA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Semantic Caching for AI Agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "semantic-caching-for-ai-agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Redis",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Speed up and reduce the costs of your AI agents by implementing semantic caching that reuses responses based on meaning rather than exact text.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Tyler Hutcherson, Iliya Zhechev",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Design, Develop, and Deploy Multi-Agent Systems with CrewAI",
+                "slug": "design-develop-and-deploy-multi-agent-systems-with-crewai",
+                "date": "2025-11-04T09:29:39",
+                "date_timestamp": 1762248579000,
+                "landing_page": "/courses/design-develop-and-deploy-multi-agent-systems-with-crewai",
+                "course_type": "Courses",
+                "skill_level": [
+                  "Beginner"
+                ],
+                "partnership": [
+                  "CrewAI"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Build practical multi-agent systems that collaborate, use tools and memory, and scale reliably to production",
+                "partnershipInfos": [
+                  {
+                    "title": "CrewAI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg"
+                    }
+                  }
+                ],
+                "instructors": "João Moura",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzM4MQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Design, Develop, and Deploy Multi-Agent Systems with CrewAI",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "design-develop-and-deploy-multi-agent-systems-with-crewai",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "CrewAI",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build practical multi-agent systems that collaborate, use tools and memory, and scale reliably to production",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "João Moura",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Jupyter AI: AI Coding in Notebooks",
+                "slug": "jupyter-ai-coding-in-notebooks",
+                "date": "2025-10-31T15:19:49",
+                "date_timestamp": 1761923989000,
+                "landing_page": "/short-courses/jupyter-ai-coding-in-notebooks",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Beginner"
+                ],
+                "partnership": [
+                  "Project Jupyter"
+                ],
+                "topic": [
+                  "AI Coding"
+                ],
+                "description": "Learn to code with AI in Jupyter notebooks. Use Jupyter AI to generate code, get explanations, and analyze data.",
+                "partnershipInfos": [
+                  {
+                    "title": "Project Jupyter",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Jupyter-square-logo.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Andrew Ng and Brian Granger",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzM2OA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Jupyter AI: AI Coding in Notebooks",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "jupyter-ai-coding-in-notebooks",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Project Jupyter",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "AI Coding",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Learn to code with AI in Jupyter notebooks. Use Jupyter AI to generate code, get explanations, and analyze data.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Andrew Ng and Brian Granger",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "PyTorch for Deep Learning Professional Certificate",
+                "slug": "pytorch-for-deep-learning-professional-certificate",
+                "date": "2025-10-26T16:27:37",
+                "date_timestamp": 1761496057000,
+                "landing_page": "/courses/pytorch-for-deep-learning-professional-certificate",
+                "course_type": "Specializations",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  null
+                ],
+                "topic": [
+                  "Deep Learning"
+                ],
+                "description": "Learn the core principles of building, optimizing, and deploying deep learning models using PyTorch.",
+                "partnershipInfos": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ],
+                "instructors": "Laurence Moroney",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzMxOA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "PyTorch for Deep Learning Professional Certificate",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "pytorch-for-deep-learning-professional-certificate",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "topic": [
+                    {
+                      "value": "Deep Learning",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Learn the core principles of building, optimizing, and deploying deep learning models using PyTorch.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Laurence Moroney",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Fine-tuning and Reinforcement Learning for LLMs: Intro to Post-Training",
+                "slug": "fine-tuning-and-reinforcement-learning-for-llms-intro-to-post-training",
+                "date": "2025-10-25T12:10:28",
+                "date_timestamp": 1761394228000,
+                "landing_page": "/courses/fine-tuning-and-reinforcement-learning-for-llms-intro-to-post-training",
+                "course_type": "Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [],
+                "topic": [
+                  "Fine-Tuning"
+                ],
+                "description": "Learn how to apply fine-tuning and reinforcement learning techniques to shape model behavior, improve reasoning, and make LLMs safer and more reliable. ",
+                "partnershipInfos": [
+                  {
+                    "title": "AMD",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/AMD-square-logo.png"
+                    }
+                  }
+                ],
+                "instructors": "Sharon Zhou",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzI4Nw==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Fine-tuning and Reinforcement Learning for LLMs: Intro to Post-Training",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "fine-tuning-and-reinforcement-learning-for-llms-intro-to-post-training",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "topic": [
+                    {
+                      "value": "Fine-Tuning",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Learn how to apply fine-tuning and reinforcement learning techniques to shape model behavior, improve reasoning, and make LLMs safer and more reliable. ",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Sharon Zhou",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Governing AI Agents",
+                "slug": "governing-ai-agents",
+                "date": "2025-10-21T09:16:30",
+                "date_timestamp": 1761038190000,
+                "landing_page": "/short-courses/governing-ai-agents",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Beginner"
+                ],
+                "partnership": [
+                  "Databricks"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Integrate data governance into your agent's workflow to ensure it handles data safely, securely, and accurately.",
+                "partnershipInfos": [
+                  {
+                    "title": "Databricks",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Databricks-Square-Logo.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Amber Roberts",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzMwMw==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Governing AI Agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "governing-ai-agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Databricks",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Integrate data governance into your agent's workflow to ensure it handles data safely, securely, and accurately.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Amber Roberts",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Building Live Voice Agents with Google’s ADK",
+                "slug": "building-live-voice-agents-with-googles-adk",
+                "date": "2025-10-13T09:07:20",
+                "date_timestamp": 1760346440000,
+                "landing_page": "/short-courses/building-live-voice-agents-with-googles-adk",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Google"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Build real-time voice AI agents, from simple to multi-agent podcast systems, using Google’s Agent Development Kit.",
+                "partnershipInfos": [
+                  {
+                    "title": "Google",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Google-Square-Icon.jpg"
+                    }
+                  }
+                ],
+                "instructors": "Lavi Nigam, Sita Lakshmi Sangameswaran",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzI2NQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Building Live Voice Agents with Google’s ADK",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "building-live-voice-agents-with-googles-adk",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Google",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build real-time voice AI agents, from simple to multi-agent podcast systems, using Google’s Agent Development Kit.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Lavi Nigam, Sita Lakshmi Sangameswaran",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Agentic AI",
+                "slug": "agentic-ai",
+                "date": "2025-09-23T13:10:21",
+                "date_timestamp": 1758633021000,
+                "landing_page": "/courses/agentic-ai",
+                "course_type": "Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  null
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "In this course taught by Andrew Ng, you'll build agentic AI systems that take action through iterative, multi-step workflows.",
+                "partnershipInfos": [
+                  {
+                    "title": "DeepLearning.AI",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png"
+                    }
+                  }
+                ],
+                "instructors": "Andrew Ng",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzE1OA==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Agentic AI",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "agentic-ai",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "In this course taught by Andrew Ng, you'll build agentic AI systems that take action through iterative, multi-step workflows.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Andrew Ng",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Building and Evaluating Data Agents",
+                "slug": "building-and-evaluating-data-agents",
+                "date": "2025-09-21T08:51:27",
+                "date_timestamp": 1758444687000,
+                "landing_page": "/short-courses/building-and-evaluating-data-agents",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Snowflake"
+                ],
+                "topic": [
+                  "Agents"
+                ],
+                "description": "Build, evaluate, and improve a multi-agent system that plans its steps, connects to data sources, and provides insights.",
+                "partnershipInfos": [
+                  {
+                    "title": "Snowflake",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/09/3-XUmcR_400x400.png"
+                    }
+                  }
+                ],
+                "instructors": "Anupam Datta, Josh Reini",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNzEzMQ==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Building and Evaluating Data Agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "building-and-evaluating-data-agents",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Snowflake",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build, evaluate, and improve a multi-agent system that plans its steps, connects to data sources, and provides insights.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Anupam Datta, Josh Reini",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              },
+              {
+                "title": "Build AI Apps with MCP Servers: Working with Box Files",
+                "slug": "build-ai-apps-with-mcp-server-working-with-box-files",
+                "date": "2025-09-16T15:25:36",
+                "date_timestamp": 1758036336000,
+                "landing_page": "/short-courses/build-ai-apps-with-mcp-server-working-with-box-files",
+                "course_type": "Short Courses",
+                "skill_level": [
+                  "Intermediate"
+                ],
+                "partnership": [
+                  "Box"
+                ],
+                "topic": [
+                  "AI Frameworks",
+                  "Agents",
+                  "Data Processing",
+                  "Document Processing",
+                  "GenAI Applications",
+                  "Prompt Engineering",
+                  "Search and Retrieval",
+                  "Task Automation"
+                ],
+                "description": "Build an LLM app that uses tools from the Box MCP server to discover Box files and extract text from them. Transform it into a multi-agent system that communicates using A2A.",
+                "partnershipInfos": [
+                  {
+                    "title": "Box",
+                    "logo": {
+                      "sourceUrl": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/09/Box-Square-Logo.png"
+                    }
+                  }
+                ],
+                "instructors": "Ben Kus",
+                "isPrivate": null,
+                "objectID": "cG9zdDozNjkyNw==",
+                "_highlightResult": {
+                  "title": {
+                    "value": "Build AI Apps with MCP Servers: Working with Box Files",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "slug": {
+                    "value": "build-ai-apps-with-mcp-server-working-with-box-files",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "partnership": [
+                    {
+                      "value": "Box",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "topic": [
+                    {
+                      "value": "AI Frameworks",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Agents",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Data Processing",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Document Processing",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "GenAI Applications",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Prompt Engineering",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Search and Retrieval",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    },
+                    {
+                      "value": "Task Automation",
+                      "matchLevel": "none",
+                      "matchedWords": []
+                    }
+                  ],
+                  "description": {
+                    "value": "Build an LLM app that uses tools from the Box MCP server to discover Box files and extract text from them. Transform it into a multi-agent system that communicates using A2A.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  },
+                  "instructors": {
+                    "value": "Ben Kus",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                  }
+                }
+              }
+            ],
+            "nbHits": 121,
+            "page": 0,
+            "nbPages": 7,
+            "hitsPerPage": 20,
+            "facets": {
+              "topic": {
+                "GenAI Applications": 60,
+                "Prompt Engineering": 46,
+                "Agents": 41,
+                "RAG": 34,
+                "Generative Models": 30,
+                "LLMOps": 27,
+                "Search and Retrieval": 24,
+                "Chatbots": 23,
+                "AI Frameworks": 20,
+                "Evaluation and Monitoring": 20,
+                "Task Automation": 20,
+                "Embeddings": 19,
+                "NLP": 19,
+                "Fine-Tuning": 17,
+                "Deep Learning": 16,
+                "Transformers": 15,
+                "Data Processing": 14,
+                "Vector Databases": 14,
+                "AI Coding": 13,
+                "Document Processing": 11,
+                "MultiModal": 10,
+                "AI in Software Development": 9,
+                "Computer Vision": 9,
+                "Machine Learning": 9,
+                "AI Safety": 8,
+                "Supervised Learning": 7,
+                "MLOps": 6,
+                "Data Engineering": 5,
+                "LLM Serving": 4,
+                "Compression and Quantization": 3,
+                "Diffusion Models": 3,
+                "Event-Driven AI": 3,
+                "Anomaly Detection": 2,
+                "Mathematical Foundations": 2,
+                "On-Device AI": 2,
+                "Synthetic Data": 1,
+                "Time Series": 1,
+                "Unsupervised Learning": 1
+              },
+              "course_type": {
+                "Short Courses": 97,
+                "Specializations": 14,
+                "Courses": 10
+              },
+              "partnership": {
+                "DeepLearning.AI": 13,
+                "Google Cloud": 6,
+                "LangChain": 6,
+                "Hugging Face": 5,
+                "Anthropic": 4,
+                "LlamaIndex": 4,
+                "Meta": 4,
+                "OpenAI": 4,
+                "CrewAI": 3,
+                "Google": 3,
+                "Microsoft": 3,
+                "AMD, formerly Lamini": 2,
+                "AWS": 2,
+                "Databricks": 2,
+                "Neo4j": 2,
+                "NexusFlow": 2,
+                "Predibase": 2,
+                "Qdrant": 2,
+                "Redis": 2,
+                "Snowflake": 2,
+                "Weaviate": 2,
+                "AGI Inc": 1,
+                "AI Dungeon": 1,
+                "AI21 labs": 1,
+                "Arize AI": 1,
+                "Astronomer": 1,
+                "Box": 1,
+                "Chroma": 1,
+                "CircleCI": 1,
+                "Co-authors of \"Hands-On Large Language Models\"": 1,
+                "Cohere": 1,
+                "Comet": 1,
+                "DotTxt": 1,
+                "Flower Labs": 1,
+                "Gemini CLI": 1,
+                "Giskard": 1,
+                "GuardrailsAI": 1,
+                "Haystack": 1,
+                "IBM Research": 1,
+                "LandingAI": 1,
+                "Letta": 1,
+                "Livekit, RealAvatar": 1,
+                "Mistral AI": 1,
+                "MongoDB": 1,
+                "Nvidia": 1,
+                "Oracle": 1,
+                "Penn State University": 1,
+                "Pinecone": 1,
+                "Project Jupyter": 1,
+                "Qualcomm": 1,
+                "Replit": 1,
+                "SAP": 1,
+                "Stanford Online": 1,
+                "StatQuest": 1,
+                "Tavily": 1,
+                "Together AI": 1,
+                "TruEra": 1,
+                "University of Washington": 1,
+                "Unstructured": 1,
+                "Upstage": 1,
+                "Vectara": 1,
+                "Weights and Biases": 1,
+                "Windsurf": 1
+              },
+              "skill_level": {
+                "Intermediate": 62,
+                "Beginner": 59
+              }
+            },
+            "exhaustiveFacetsCount": true,
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "exhaustive": {
+              "facetsCount": true,
+              "nbHits": true,
+              "typo": true
+            },
+            "query": "",
+            "params": "facets=%5B%22course_type%22%2C%22skill_level%22%2C%22partnership%22%2C%22topic%22%5D&query=",
+            "index": "courses_date_desc",
+            "queryID": "5e979650fb48627d61300c66a542d6ae",
+            "_automaticInsights": true,
+            "renderingContent": {
+              "facetOrdering": {
+                "facets": {
+                  "order": [
+                    "popularity",
+                    "course_type",
+                    "skill_level",
+                    "duration"
+                  ]
+                },
+                "values": {
+                  "course_type": {
+                    "order": [
+                      "Specializations",
+                      "Regular Courses",
+                      "Short Courses"
+                    ],
+                    "sortRemainingBy": "count"
+                  },
+                  "duration": {
+                    "order": [
+                      "1_2_hours",
+                      "2_4_weeks",
+                      "2_6_months"
+                    ],
+                    "sortRemainingBy": "count"
+                  },
+                  "popularity": {
+                    "order": [
+                      "New Releases",
+                      "Most Popular",
+                      "Top Rated"
+                    ],
+                    "sortRemainingBy": "hidden"
+                  },
+                  "skill_level": {
+                    "order": [
+                      "Beginner",
+                      "Intermediate",
+                      "Advanced"
+                    ],
+                    "sortRemainingBy": "hidden"
+                  }
+                }
+              }
+            },
+            "extensions": {
+              "queryCategorization": {}
+            },
+            "processingTimeMS": 8,
+            "processingTimingsMS": {
+              "_request": {
+                "roundTrip": 66
+              },
+              "extensions": 1,
+              "getIdx": {
+                "load": {
+                  "dicts": 1,
+                  "total": 2
+                },
+                "total": 5,
+                "unload": 3
+              },
+              "total": 8
+            },
+            "serverTimeMS": 9
+          }
+        ]
+      },
+      "topicsFacets": [
+        {
+          "key": "Agents",
+          "label": "Agents",
+          "value": "Agents",
+          "icon": null
+        },
+        {
+          "key": "AI Coding",
+          "label": "AI Coding",
+          "value": "AI Coding",
+          "icon": null
+        },
+        {
+          "key": "AI Frameworks",
+          "label": "AI Frameworks",
+          "value": "AI Frameworks",
+          "icon": null
+        },
+        {
+          "key": "AI in Software Development",
+          "label": "AI in Software Development",
+          "value": "AI in Software Development",
+          "icon": null
+        },
+        {
+          "key": "AI Safety",
+          "label": "AI Safety",
+          "value": "AI Safety",
+          "icon": null
+        },
+        {
+          "key": "Anomaly Detection",
+          "label": "Anomaly Detection",
+          "value": "Anomaly Detection",
+          "icon": null
+        },
+        {
+          "key": "Chatbots",
+          "label": "Chatbots",
+          "value": "Chatbots",
+          "icon": null
+        },
+        {
+          "key": "Compression and Quantization",
+          "label": "Compression and Quantization",
+          "value": "Compression and Quantization",
+          "icon": null
+        },
+        {
+          "key": "Computer Vision",
+          "label": "Computer Vision",
+          "value": "Computer Vision",
+          "icon": null
+        },
+        {
+          "key": "Data Engineering",
+          "label": "Data Engineering",
+          "value": "Data Engineering",
+          "icon": null
+        },
+        {
+          "key": "Data Processing",
+          "label": "Data Processing",
+          "value": "Data Processing",
+          "icon": null
+        },
+        {
+          "key": "Deep Learning",
+          "label": "Deep Learning",
+          "value": "Deep Learning",
+          "icon": null
+        },
+        {
+          "key": "Diffusion Models",
+          "label": "Diffusion Models",
+          "value": "Diffusion Models",
+          "icon": null
+        },
+        {
+          "key": "Document Processing",
+          "label": "Document Processing",
+          "value": "Document Processing",
+          "icon": null
+        },
+        {
+          "key": "Embeddings",
+          "label": "Embeddings",
+          "value": "Embeddings",
+          "icon": null
+        },
+        {
+          "key": "Evaluation and Monitoring",
+          "label": "Evaluation and Monitoring",
+          "value": "Evaluation and Monitoring",
+          "icon": null
+        },
+        {
+          "key": "Event-Driven AI",
+          "label": "Event-Driven AI",
+          "value": "Event-Driven AI",
+          "icon": null
+        },
+        {
+          "key": "Fine-Tuning",
+          "label": "Fine-Tuning",
+          "value": "Fine-Tuning",
+          "icon": null
+        },
+        {
+          "key": "GenAI Applications",
+          "label": "GenAI Applications",
+          "value": "GenAI Applications",
+          "icon": null
+        },
+        {
+          "key": "Generative Models",
+          "label": "Generative Models",
+          "value": "Generative Models",
+          "icon": null
+        },
+        {
+          "key": "LLM Serving",
+          "label": "LLM Serving",
+          "value": "LLM Serving",
+          "icon": null
+        },
+        {
+          "key": "LLMOps",
+          "label": "LLMOps",
+          "value": "LLMOps",
+          "icon": null
+        },
+        {
+          "key": "Machine Learning",
+          "label": "Machine Learning",
+          "value": "Machine Learning",
+          "icon": null
+        },
+        {
+          "key": "Mathematical Foundations",
+          "label": "Mathematical Foundations",
+          "value": "Mathematical Foundations",
+          "icon": null
+        },
+        {
+          "key": "MLOps",
+          "label": "MLOps",
+          "value": "MLOps",
+          "icon": null
+        },
+        {
+          "key": "MultiModal",
+          "label": "MultiModal",
+          "value": "MultiModal",
+          "icon": null
+        },
+        {
+          "key": "NLP",
+          "label": "NLP",
+          "value": "NLP",
+          "icon": null
+        },
+        {
+          "key": "On-Device AI",
+          "label": "On-Device AI",
+          "value": "On-Device AI",
+          "icon": null
+        },
+        {
+          "key": "Prompt Engineering",
+          "label": "Prompt Engineering",
+          "value": "Prompt Engineering",
+          "icon": null
+        },
+        {
+          "key": "RAG",
+          "label": "RAG",
+          "value": "RAG",
+          "icon": null
+        },
+        {
+          "key": "Search and Retrieval",
+          "label": "Search and Retrieval",
+          "value": "Search and Retrieval",
+          "icon": null
+        },
+        {
+          "key": "Supervised Learning",
+          "label": "Supervised Learning",
+          "value": "Supervised Learning",
+          "icon": null
+        },
+        {
+          "key": "Synthetic Data",
+          "label": "Synthetic Data",
+          "value": "Synthetic Data",
+          "icon": null
+        },
+        {
+          "key": "Task Automation",
+          "label": "Task Automation",
+          "value": "Task Automation",
+          "icon": null
+        },
+        {
+          "key": "Time Series",
+          "label": "Time Series",
+          "value": "Time Series",
+          "icon": null
+        },
+        {
+          "key": "Transformers",
+          "label": "Transformers",
+          "value": "Transformers",
+          "icon": null
+        },
+        {
+          "key": "Unsupervised Learning",
+          "label": "Unsupervised Learning",
+          "value": "Unsupervised Learning",
+          "icon": null
+        },
+        {
+          "key": "Vector Databases",
+          "label": "Vector Databases",
+          "value": "Vector Databases",
+          "icon": null
+        }
+      ],
+      "partnershipsFacets": [
+        {
+          "key": "AGI Inc",
+          "label": "AGI Inc",
+          "value": "AGI Inc",
+          "icon": null
+        },
+        {
+          "key": "AI Dungeon",
+          "label": "AI Dungeon",
+          "value": "AI Dungeon",
+          "icon": null
+        },
+        {
+          "key": "AI21 labs",
+          "label": "AI21 labs",
+          "value": "AI21 labs",
+          "icon": null
+        },
+        {
+          "key": "AMD, formerly Lamini",
+          "label": "AMD, formerly Lamini",
+          "value": "AMD, formerly Lamini",
+          "icon": null
+        },
+        {
+          "key": "Anthropic",
+          "label": "Anthropic",
+          "value": "Anthropic",
+          "icon": null
+        },
+        {
+          "key": "Arize AI",
+          "label": "Arize AI",
+          "value": "Arize AI",
+          "icon": null
+        },
+        {
+          "key": "Astronomer",
+          "label": "Astronomer",
+          "value": "Astronomer",
+          "icon": null
+        },
+        {
+          "key": "AWS",
+          "label": "AWS",
+          "value": "AWS",
+          "icon": null
+        },
+        {
+          "key": "Box",
+          "label": "Box",
+          "value": "Box",
+          "icon": null
+        },
+        {
+          "key": "Chroma",
+          "label": "Chroma",
+          "value": "Chroma",
+          "icon": null
+        },
+        {
+          "key": "CircleCI",
+          "label": "CircleCI",
+          "value": "CircleCI",
+          "icon": null
+        },
+        {
+          "key": "Co-authors of \"Hands-On Large Language Models\"",
+          "label": "Co-authors of \"Hands-On Large Language Models\"",
+          "value": "Co-authors of \"Hands-On Large Language Models\"",
+          "icon": null
+        },
+        {
+          "key": "Cohere",
+          "label": "Cohere",
+          "value": "Cohere",
+          "icon": null
+        },
+        {
+          "key": "Comet",
+          "label": "Comet",
+          "value": "Comet",
+          "icon": null
+        },
+        {
+          "key": "CrewAI",
+          "label": "CrewAI",
+          "value": "CrewAI",
+          "icon": null
+        },
+        {
+          "key": "Databricks",
+          "label": "Databricks",
+          "value": "Databricks",
+          "icon": null
+        },
+        {
+          "key": "DeepLearning.AI",
+          "label": "DeepLearning.AI",
+          "value": "DeepLearning.AI",
+          "icon": null
+        },
+        {
+          "key": "DotTxt",
+          "label": "DotTxt",
+          "value": "DotTxt",
+          "icon": null
+        },
+        {
+          "key": "Flower Labs",
+          "label": "Flower Labs",
+          "value": "Flower Labs",
+          "icon": null
+        },
+        {
+          "key": "Gemini CLI",
+          "label": "Gemini CLI",
+          "value": "Gemini CLI",
+          "icon": null
+        },
+        {
+          "key": "Giskard",
+          "label": "Giskard",
+          "value": "Giskard",
+          "icon": null
+        },
+        {
+          "key": "Google",
+          "label": "Google",
+          "value": "Google",
+          "icon": null
+        },
+        {
+          "key": "Google Cloud",
+          "label": "Google Cloud",
+          "value": "Google Cloud",
+          "icon": null
+        },
+        {
+          "key": "GuardrailsAI",
+          "label": "GuardrailsAI",
+          "value": "GuardrailsAI",
+          "icon": null
+        },
+        {
+          "key": "Haystack",
+          "label": "Haystack",
+          "value": "Haystack",
+          "icon": null
+        },
+        {
+          "key": "Hugging Face",
+          "label": "Hugging Face",
+          "value": "Hugging Face",
+          "icon": null
+        },
+        {
+          "key": "IBM Research",
+          "label": "IBM Research",
+          "value": "IBM Research",
+          "icon": null
+        },
+        {
+          "key": "LandingAI",
+          "label": "LandingAI",
+          "value": "LandingAI",
+          "icon": null
+        },
+        {
+          "key": "LangChain",
+          "label": "LangChain",
+          "value": "LangChain",
+          "icon": null
+        },
+        {
+          "key": "Letta",
+          "label": "Letta",
+          "value": "Letta",
+          "icon": null
+        },
+        {
+          "key": "Livekit, RealAvatar",
+          "label": "Livekit, RealAvatar",
+          "value": "Livekit, RealAvatar",
+          "icon": null
+        },
+        {
+          "key": "LlamaIndex",
+          "label": "LlamaIndex",
+          "value": "LlamaIndex",
+          "icon": null
+        },
+        {
+          "key": "Meta",
+          "label": "Meta",
+          "value": "Meta",
+          "icon": null
+        },
+        {
+          "key": "Microsoft",
+          "label": "Microsoft",
+          "value": "Microsoft",
+          "icon": null
+        },
+        {
+          "key": "Mistral AI",
+          "label": "Mistral AI",
+          "value": "Mistral AI",
+          "icon": null
+        },
+        {
+          "key": "MongoDB",
+          "label": "MongoDB",
+          "value": "MongoDB",
+          "icon": null
+        },
+        {
+          "key": "Neo4j",
+          "label": "Neo4j",
+          "value": "Neo4j",
+          "icon": null
+        },
+        {
+          "key": "NexusFlow",
+          "label": "NexusFlow",
+          "value": "NexusFlow",
+          "icon": null
+        },
+        {
+          "key": "Nvidia",
+          "label": "Nvidia",
+          "value": "Nvidia",
+          "icon": null
+        },
+        {
+          "key": "OpenAI",
+          "label": "OpenAI",
+          "value": "OpenAI",
+          "icon": null
+        },
+        {
+          "key": "Oracle",
+          "label": "Oracle",
+          "value": "Oracle",
+          "icon": null
+        },
+        {
+          "key": "Penn State University",
+          "label": "Penn State University",
+          "value": "Penn State University",
+          "icon": null
+        },
+        {
+          "key": "Pinecone",
+          "label": "Pinecone",
+          "value": "Pinecone",
+          "icon": null
+        },
+        {
+          "key": "Predibase",
+          "label": "Predibase",
+          "value": "Predibase",
+          "icon": null
+        },
+        {
+          "key": "Project Jupyter",
+          "label": "Project Jupyter",
+          "value": "Project Jupyter",
+          "icon": null
+        },
+        {
+          "key": "Qdrant",
+          "label": "Qdrant",
+          "value": "Qdrant",
+          "icon": null
+        },
+        {
+          "key": "Qualcomm",
+          "label": "Qualcomm",
+          "value": "Qualcomm",
+          "icon": null
+        },
+        {
+          "key": "Redis",
+          "label": "Redis",
+          "value": "Redis",
+          "icon": null
+        },
+        {
+          "key": "Replit",
+          "label": "Replit",
+          "value": "Replit",
+          "icon": null
+        },
+        {
+          "key": "SAP",
+          "label": "SAP",
+          "value": "SAP",
+          "icon": null
+        },
+        {
+          "key": "Snowflake",
+          "label": "Snowflake",
+          "value": "Snowflake",
+          "icon": null
+        },
+        {
+          "key": "Stanford Online",
+          "label": "Stanford Online",
+          "value": "Stanford Online",
+          "icon": null
+        },
+        {
+          "key": "StatQuest",
+          "label": "StatQuest",
+          "value": "StatQuest",
+          "icon": null
+        },
+        {
+          "key": "Tavily",
+          "label": "Tavily",
+          "value": "Tavily",
+          "icon": null
+        },
+        {
+          "key": "Together AI",
+          "label": "Together AI",
+          "value": "Together AI",
+          "icon": null
+        },
+        {
+          "key": "TruEra",
+          "label": "TruEra",
+          "value": "TruEra",
+          "icon": null
+        },
+        {
+          "key": "University of Washington",
+          "label": "University of Washington",
+          "value": "University of Washington",
+          "icon": null
+        },
+        {
+          "key": "Unstructured",
+          "label": "Unstructured",
+          "value": "Unstructured",
+          "icon": null
+        },
+        {
+          "key": "Upstage",
+          "label": "Upstage",
+          "value": "Upstage",
+          "icon": null
+        },
+        {
+          "key": "Vectara",
+          "label": "Vectara",
+          "value": "Vectara",
+          "icon": null
+        },
+        {
+          "key": "Weaviate",
+          "label": "Weaviate",
+          "value": "Weaviate",
+          "icon": null
+        },
+        {
+          "key": "Weights and Biases",
+          "label": "Weights and Biases",
+          "value": "Weights and Biases",
+          "icon": null
+        },
+        {
+          "key": "Windsurf",
+          "label": "Windsurf",
+          "value": "Windsurf",
+          "icon": null
+        }
+      ]
+    },
+    "__N_SSG": true
+  },
+  "page": "/courses",
+  "query": {},
+  "buildId": "k66b9MtngnxwXbCh5xdCQ",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "scriptLoader": []
+}
