@@ -154,14 +154,7 @@ async function startStdio() {
 // --- HTTP mode (Railway, remote) ---
 async function startHttp() {
   const port = parseInt(process.env.PORT || '3000', 10);
-  const apiToken = process.env.MCP_API_TOKEN || '';
   const courses = await loadCourses(false);
-
-  if (apiToken) {
-    log('Bearer token auth enabled');
-  } else {
-    log('WARNING: No MCP_API_TOKEN set — server is unauthenticated');
-  }
 
   const httpServer = http.createServer(async (req, res) => {
     // CORS headers
@@ -181,16 +174,6 @@ async function startHttp() {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ status: 'ok', courses: courses.length }));
       return;
-    }
-
-    // Auth check for MCP endpoint (if token is configured)
-    if (apiToken && req.url === '/mcp') {
-      const auth = req.headers['authorization'] || '';
-      if (auth !== `Bearer ${apiToken}`) {
-        res.writeHead(401, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'Unauthorized. Set Authorization: Bearer <token> header.' }));
-        return;
-      }
     }
 
     // MCP endpoint
