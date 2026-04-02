@@ -15,7 +15,7 @@ Add to your Claude Code MCP config (`~/.claude.json` or project `.mcp.json`):
   "mcpServers": {
     "dlai": {
       "type": "url",
-      "url": "https://just-freedom-production-4b8c.up.railway.app/mcp"
+      "url": "https://dlai-mcp-server-production.up.railway.app/mcp"
     }
   }
 }
@@ -167,7 +167,7 @@ Claude formats the answer naturally
 
 | Mode | URL / Command | For |
 |------|--------------|-----|
-| **Remote** | `https://just-freedom-production-4b8c.up.railway.app/mcp` | Zero-install, hosted on Railway |
+| **Remote** | `https://dlai-mcp-server-production.up.railway.app/mcp` | Zero-install, hosted on Railway |
 | **Local** | `npx dlai-mcp-server` | Offline-capable, runs on your machine |
 | **Health** | `GET /health` | Monitoring |
 | **Info** | `GET /` | Server metadata |
@@ -177,7 +177,7 @@ Claude formats the answer naturally
 ### 1. Verify the remote server is running
 
 ```bash
-curl https://just-freedom-production-4b8c.up.railway.app/health
+curl https://dlai-mcp-server-production.up.railway.app/health
 # Expected: {"status":"ok","courses":121}
 ```
 
