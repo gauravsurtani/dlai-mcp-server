@@ -59,42 +59,85 @@ That's it. You're done.
 
 ---
 
-## What Can I Ask?
+## What Can I Ask? (Verified Examples)
 
-Once connected, just talk naturally. Claude will automatically call the right tool.
+Once connected, just talk naturally. Claude automatically picks the right tool. Every example below was tested against the live server on April 2, 2026.
 
 ### Find courses
 
-```
-"Find me courses about building AI agents"
-"What beginner courses are available?"
-"Show me courses by OpenAI"
-"Are there any courses on computer vision?"
-"What courses does Andrew Ng teach?"
-```
+> **"What courses about RAG?"**
+> Returns 35 courses including Retrieval Augmented Generation (RAG), Building Multimodal Search and RAG, Building Agentic RAG with LlamaIndex, Knowledge Graphs for RAG, and 31 more.
+
+> **"Find beginner courses on AI agents"**
+> Returns 17 courses: Governing AI Agents (Databricks), Evaluating AI Agents (Arize AI), Agent Skills with Anthropic, Practical Multi AI Agents with crewAI, and more.
+
+> **"What does OpenAI partner with DLAI on?"**
+> Returns 4 courses: Reasoning with o1, Collaborative Writing and Coding with OpenAI Canvas, Building Systems with the ChatGPT API, ChatGPT Prompt Engineering for Developers.
+
+> **"What courses does Andrew Ng teach?"**
+> Returns 13 courses: Build with Andrew, Agentic AI, AI Python for Beginners, Machine Learning Specialization, and more.
+
+> **"Show me courses about prompt engineering"**
+> Returns 46 courses across beginner and intermediate levels from partners like Meta, OpenAI, Comet, and more.
+
+> **"What LangChain courses are there?"**
+> Returns 5 courses: Build LLM Apps with LangChain.js, Functions Tools and Agents with LangChain, LangChain Chat with Your Data, LangChain for LLM Application Development, AI Agents in LangGraph.
+
+> **"What Specializations are available?"**
+> Returns 14 specializations: PyTorch for Deep Learning, Data Analytics, Generative AI for Software Development, Data Engineering, AI for Good, Machine Learning, and more.
 
 ### Explore a specific course
 
-```
-"What does the ChatGPT Prompt Engineering course cover?"
-"Show me the lesson breakdown for Building Agentic RAG"
-"How many code examples are in the crewAI course?"
-```
+> **"What does the ChatGPT Prompt Engineering course cover?"**
+> Returns: 10 lessons | 7 code examples | 1h 30m total
+> Lessons: Introduction (6m), Guidelines (17m), Iterative (13m), Summarizing (8m), Inferring (12m), Transforming (13m), Expanding (7m), Chatbot (12m), Conclusion (2m), Quiz.
+
+> **"How many lessons in the crewAI multi-agent course?"**
+> Returns: 20 lessons | 7 code examples | 2h 43m total
+> Covers: AI Agents overview, creating research agents, customer support automation, agent tools, event planning automation, financial analysis, job application tailoring, and more.
+
+> **"Tell me about Building Agentic RAG with LlamaIndex"**
+> Returns: 7 lessons | 4 code examples | 45m total
+> Lessons: Introduction, Router Query Engine, Tool Calling, Building an Agent Reasoning Loop, Building a Multi-Document Agent, Conclusion, Quiz.
 
 ### Browse topics
 
-```
-"What topics are available on DeepLearning.AI?"
-"How many courses are there about Agents?"
-"What are the most popular course categories?"
-```
+> **"What topics are available on DeepLearning.AI?"**
+> Returns 38 topics. Top 10 by course count:
+> - GenAI Applications: 60 courses
+> - Prompt Engineering: 46 courses
+> - Agents: 41 courses
+> - RAG: 34 courses
+> - Generative Models: 30 courses
+> - LLMOps: 27 courses
+> - Search and Retrieval: 24 courses
+> - Chatbots: 23 courses
+> - Task Automation: 20 courses
+> - AI Frameworks: 20 courses
 
-### Get recommendations
+### Combined filters
+
+> **"Find beginner Agent courses"** (topic + level filter)
+> Returns 17 courses from Anthropic, CrewAI, Databricks, Replit, LlamaIndex, Windsurf, Arize AI, OpenAI, and more.
+
+> **"Fine-tuning courses"**
+> Returns 17 courses covering post-training, GRPO, LLM serving, pretraining, vision model prompting, and more.
+
+### Edge cases
+
+> **"Courses on kubernetes?"** → 0 results (not in catalog)
+> **"Advanced courses?"** → 0 results (DLAI only has Beginner and Intermediate levels)
+> **Invalid course slug** → Clear error message: "Course not found. Use search_courses to find valid slugs."
+
+### Recommendations (Claude combines results with reasoning)
+
+These prompts work because Claude uses the search tools and then reasons about the results:
 
 ```
 "I'm a Python developer new to AI. Where should I start?"
 "What's the fastest path to learning RAG?"
-"Compare the beginner RAG courses — which one should I take?"
+"Compare the beginner RAG courses — which one should I take first?"
+"I want to learn about AI agents. Give me a 4-week learning plan."
 ```
 
 ---
