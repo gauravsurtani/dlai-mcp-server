@@ -1,6 +1,6 @@
 {
   "name": "dlai-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for discovering DeepLearning.AI courses from AI coding tools",
   "type": "module",
   "main": "dist/index.js",
@@ -16,7 +16,13 @@
     "prepublishOnly": "npm run build",
     "update-fallback": "tsx scripts/update-fallback.ts"
   },
-  "keywords": ["mcp", "deeplearning-ai", "courses", "claude-code", "ai-tools"],
+  "keywords": [
+    "mcp",
+    "deeplearning-ai",
+    "courses",
+    "claude-code",
+    "ai-tools"
+  ],
   "author": "Gaurav Surtani",
   "license": "MIT",
   "dependencies": {
