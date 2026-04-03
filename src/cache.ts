@@ -82,6 +82,14 @@ export async function loadFallback(): Promise<Course[]> {
   }
 }
 
+export async function invalidateCache(): Promise<void> {
+  try {
+    await fs.unlink(CACHE_FILE);
+  } catch {
+    // File doesn't exist — that's fine
+  }
+}
+
 export async function getCourses(
   scraper?: () => Promise<Course[]>
 ): Promise<{ courses: Course[]; source: "cache" | "live" | "fallback" }> {

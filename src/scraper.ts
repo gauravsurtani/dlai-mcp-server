@@ -171,20 +171,34 @@ async function fetchHtml(url: string): Promise<string> {
 
 /**
  * Scrape all courses from the DLAI catalog via Algolia search API.
- * Returns all courses in a single request (no pagination needed).
+ * Paginates if catalog exceeds hitsPerPage limit.
  */
 export async function scrapeCatalog(): Promise<Course[]> {
-  const url = `https://${ALGOLIA_APP_ID}-dsn.algolia.net/1/indexes/${ALGOLIA_INDEX}?query=&hitsPerPage=200`;
-  const data = await fetchJson(url, {
-    'X-Algolia-Application-Id': ALGOLIA_APP_ID,
-    'X-Algolia-API-Key': ALGOLIA_API_KEY,
-  });
+  const allCourses: Course[] = [];
+  let page = 0;
+  const hitsPerPage = 200;
 
-  if (!data.hits || !Array.isArray(data.hits)) {
-    throw new Error('Unexpected Algolia response: no hits array');
+  while (true) {
+    const url = `https://${ALGOLIA_APP_ID}-dsn.algolia.net/1/indexes/${ALGOLIA_INDEX}?query=&hitsPerPage=${hitsPerPage}&page=${page}`;
+    const data = await fetchJson(url, {
+      'X-Algolia-Application-Id': ALGOLIA_APP_ID,
+      'X-Algolia-API-Key': ALGOLIA_API_KEY,
+    });
+
+    if (!data.hits || !Array.isArray(data.hits)) {
+      throw new Error('Unexpected Algolia response: no hits array');
+    }
+
+    allCourses.push(...parseAlgoliaHits(data.hits));
+
+    // Check if there are more pages
+    if (data.hits.length < hitsPerPage || allCourses.length >= (data.nbHits ?? 0)) {
+      break;
+    }
+    page++;
   }
 
-  return parseAlgoliaHits(data.hits);
+  return allCourses;
 }
 
 /**
