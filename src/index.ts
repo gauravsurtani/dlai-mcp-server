@@ -205,7 +205,7 @@ async function startHttp() {
             mcpServers: {
               dlai: {
                 type: 'url',
-                url: `https://<your-domain>/mcp`,
+                url: `https://${req.headers.host}/mcp`,
               }
             }
           }
