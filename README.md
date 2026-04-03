@@ -26,6 +26,21 @@ nano ~/.claude.json        # Terminal
 
 Add this inside the `"mcpServers"` section (create it if it doesn't exist):
 
+**Option A: Local via npx (recommended)**
+
+```json
+{
+  "mcpServers": {
+    "dlai": {
+      "command": "npx",
+      "args": ["-y", "dlai-mcp-server"]
+    }
+  }
+}
+```
+
+**Option B: Remote hosted server**
+
 ```json
 {
   "mcpServers": {
@@ -37,6 +52,7 @@ Add this inside the `"mcpServers"` section (create it if it doesn't exist):
 }
 ```
 
+> Note: Remote URL MCP support varies by Claude Code version. If Option B doesn't connect, use Option A.
 > If you already have other MCP servers configured, just add the `"dlai"` entry alongside them.
 
 ### Step 2: Restart Claude Code
